@@ -1,0 +1,285 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon" />
+    <script defer src="./assets/js/jquery-3.3.1.slim.min.js"></script>
+    <script defer src="./assets/js/popper.min.js"></script>
+    <script defer src="./assets/js/bootstrap.min.js"></script>
+    <title>Page d'accueil</title>
+<meta property="og:title" content="Page d'accueil" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="Voici la page d'accueil." />
+<meta property="og:description" content="Voici la page d'accueil." />
+<meta name="keywords" content="" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Company Name (to complete)" />
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"WebSite",
+"url":"http://localhost:4000/",
+"description":"Voici la page d'accueil.",
+"name":"Page d'accueil"
+}
+</script>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light Navbar fixedNav">
+    <div class="container">
+        <a class="navbar-brand" href="./"><img class="logo" src="./assets/img/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse Navbar_nav" id="navbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Accueil</a>
+                </li>
+                 <li class="nav-item ">
+                    <a class="nav-link" href="./qui-sommes-nous.html">Qui sommes-nous?</a>
+                </li>
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Nos Services
+                    </a>
+                    <div class="dropdown-menu" style="background-color: black;"  aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " href="./guepesfrelons.html">Guêpes/frelons</a>
+                        <a class="dropdown-item " href="./rongeurs.html">Rongeurs</a>
+                        <a class="dropdown-item " href="./chenilles.html">Chenilles</a>
+                        <a class="dropdown-item " href="./taupes.html">Taupes </a>
+                        <a class="dropdown-item " href="./cafards.html">Cafards</a>
+                        <a class="dropdown-item " href="./ramonage.html">Ramonage/Débistrage</a>
+                        <a class="dropdown-item " href="./demoussage.html">Démoussage</a>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="./galerie.html">Galerie</a>
+                </li>
+               
+                <!-- <li class="nav-item ">
+                    <a class="nav-link" href="./contact">Contact</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="btn center mt-1" style="background-color: #0C9600;" href="./devis.html">Contact & Devis</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+
+    <div>
+        <div class="banner" style="background-image: url(./assets/img/bannercon.png)">
+  <div class="container">
+    <h1 class="banner-head">CONTACTEZ-NOUS SANS PLUS ATTENDRE !</h1>
+  </div>
+</div>
+
+
+<div class="menu devis">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="">
+          <form action="" class="form">
+            <div class="sub-heading">Contactez-nous !</div>
+            <div class="input-wrap">
+              <input type="text" name="name" placeholder="Nom" required />
+              <input type="text" name="Prénom" placeholder="Prénom" required />
+            </div>
+            <div class="input-wrap">
+              <input type="tel" name="Téléphone" placeholder="Téléphone" required />
+              <input type="email" name="email" placeholder="email" required />
+            </div>
+            <div class="input-wrap">
+              <input class="max-len" type="text" name="Adresse" placeholder="Adresse" required />
+            </div>
+            <div class="input-wrap">
+              <input type="text" name="Code postal" placeholder="Code postal" required />
+              <input type="text" name="Ville" placeholder="Ville" required />
+            </div>
+            <div class="input-wrap">
+              <select class="max-len" name="Prestations" id="">
+                <option value="Prestations">Prestations</option>
+              </select>
+            </div>
+            <div class="input-wrap">
+              <textarea class="max-len" name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="btn-wrap center">
+              <a class="butn" style="margin: 3rem 0" href="./devis.html">ENVOYER</a>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 pt-5">
+        <div class="">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.799125717486!2d2.529507523882703!3d48.4603835799602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5eea2af0c79e9%3A0x68bb70dc9a99e675!2s22%20Rue%20de%20la%20Salle%2C%2077930%20C%C3%A9ly%2C%20France!5e0!3m2!1sen!2sng!4v1651045052386!5m2!1sen!2sng"
+            width="600" height="400" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container devis pb-5">
+  <div class="wrap-items" style="margin: 5rem 0;">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="tel:06 29 95 32 62" class="phonelink">
+        <div class="content">
+          <img src="./assets/img/callc.png" alt="icon" />
+          <div class="num">
+            06 29 95 32 62
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="mailto:contact@pfp-services.fr" class="phonelink">
+        <div class="content">
+          <img src="./assets/img/messagec.png" alt="icon" />
+          <div class="email">
+            contact@pfp-services.fr
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-4">
+        <div class="content">
+          <img src="./assets/img/locationc.png" alt="icon" />
+          <div class="address">
+            22 Rue de la Salle, 77930 CELY <br> 5 rue de Montmelian 77210 SAMOREAU
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="footer mt-5">
+      <hr />
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm">
+            <h2>PFP SERVICES</h2>
+    
+            <div class="text">
+              lorem ipsum lorem ispum lorem ipsum lorem ipsum lorem ispum lorem
+              ipsum lorem ispum lorem ipsum lorem ipsum lorem ispum lorem ipsum
+              lorem ispum lorem ipsum lorem ipsum lorem ispum lorem ipsum lorem
+              ispum lorem ipsum lorem ipsum lorem ispum lorem ipsum lorem ispum
+              lorem ipsum lorem ipsum.
+            </div>
+          </div>
+          <div class="col-sm center" style="flex-direction: column">
+            <h2>Liens utiles</h2>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./qui-sommes-nous.html">Qui sommes-nous&nbsp;?</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./guepesfrelons.html">Guêpes/frelons</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./rongeurs.html">Rongeurs</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./galerie.html">Galerie</a>
+              </li>
+    
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./devis.html">Devis</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./intervention.html">Zone d'intervention </a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/tickfut.png" alt="tick" />
+                <a href="./devis.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- <div class="col-sm">
+            <h2>Suivez-nous</h2>
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="fa-stack">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </div> -->
+          <div class="col-sm">
+            <h2>Coordonnées</h2>
+            <!-- <p class="text-muted">Aucune carte de crédit demandée.</p>
+            <a href="./devis" class="btn btn-primary btn-lg"
+              >J'obtiens mon devis</a
+            > -->
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <img style="margin-right: 0.4rem" src="./assets/img/call.png" alt="tick" />
+                <a href="tel:06 29 95 32 62">06 29 95 32 62</a>
+              </li>
+              <li class="nav-item">
+                <img style="margin-right: 0.4rem" src="./assets/img/message.png" alt="tick" />
+                <a href="mailto:contact@pfp-services.fr">contact@pfp-services.fr</a>
+              </li>
+              <li class="nav-item">
+                <img src="./assets/img/location.png" alt="tick" />
+                <a href="address:22 Rue de la Salle 77930 Cély">22 Rue de la Salle 77930 Cély</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center text-muted mt-4 mb-3">
+          <small>
+            <!-- Site développé par
+            <a href="./bhinternet" class="text-muted">BHInternet</a>
+            en 2020 -->
+          </small>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="../assets/js/index.js"></script>
+      </body>
+    </html>
